@@ -22,7 +22,9 @@ class Song
     song
   end
 
+  def create_by_name
 
+  end
 
 
 end

@@ -34,6 +34,7 @@ class Song
 
   def self.find_or_create_by_name(song)
     self.find_by_name(name) || self.create_by_name(name)
+    if @@all.exist! song.name = "#{name}"
   end
 
 

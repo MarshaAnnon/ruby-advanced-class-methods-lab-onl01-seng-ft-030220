@@ -10,11 +10,16 @@ class Song
     self.class.all << self
   end
 
-  def Song.create(name)
+  def self.create(name)
     song = self.new(name)
-     song.save
-   end
-     return song
+    song.save
+    song
   end
+
+  def self.create(name) #custom constructor
+ song = self.new(name)
+ song.save
+ return song
+end
 
 end

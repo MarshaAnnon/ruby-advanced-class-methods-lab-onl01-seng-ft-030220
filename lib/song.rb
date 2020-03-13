@@ -16,10 +16,6 @@ class Song
     song
   end
 
-  def self.create(name) #custom constructor
- song = self.new(name)
- song.save
- return song
-end
+  
 
 end

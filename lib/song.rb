@@ -46,9 +46,10 @@ class Song
     song.name = (name.split(" - ")[1].delete_suffix(".mp3"))
     song.artist_name = (name.split(" - ")[0])
     song
-
-
   end
 
+  def self.create_from_filename(name)
+
+  end
 
 end

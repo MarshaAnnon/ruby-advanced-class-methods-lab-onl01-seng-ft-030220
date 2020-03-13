@@ -17,10 +17,12 @@ class Song
   end
 
   def self.new_by_name
-    song.name = name
-    return song
+    song = self.new
+    song.name = song_name
+    song
   end
 
+  
 
 
 end

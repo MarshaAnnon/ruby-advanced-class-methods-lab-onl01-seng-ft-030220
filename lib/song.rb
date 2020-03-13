@@ -23,7 +23,8 @@ class Song
   end
 
   def create_by_name
-
+    song = self.new
+    song.name.sav
   end
 
 

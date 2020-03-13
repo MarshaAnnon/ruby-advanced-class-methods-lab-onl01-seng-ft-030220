@@ -13,6 +13,7 @@ class Song
   def Song.create(name)
     song = self.new(name)
      song.save
+   end
      return song
   end
 
